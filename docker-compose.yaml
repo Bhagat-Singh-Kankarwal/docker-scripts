@@ -35,7 +35,7 @@ services:
       MYSQL_PORT: 3306
       MYSQL_DATABASE_NAME: supertokens
     ports:
-      - "3567:3567"
+      - "0.0.0.0:3567:3567"
     networks:
       - backend
     healthcheck:
